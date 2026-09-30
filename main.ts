@@ -5,6 +5,6 @@ export default definePlugin({
     greeting = config["greeting"] ?? "";
   },
   render() {
-    return "hello v1 " + greeting;
+    return "hello v2 " + greeting;
   },
 });
